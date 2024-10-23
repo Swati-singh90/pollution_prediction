@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #49a8ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right,darkblue , lightblue);
+}
+
+.container {
+    background-color: navy;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 180px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #2980b9;
+}
+
+.pollution-info {
+    display: none;
+}
+
+#city-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#aqi {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#pollutants {
+    font-size: 16px;
+}
+#weather-condition{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.good{
+    color: green;
+}
+.fair{
+    color:orange
+}
+.moderate{
+    color: yellow;
+}
+.poor{
+        color: red;
+}
+.very-poor{
+    color: darkred;
+
+}
+#location{
+    color: white;
+    background-color: #0963a4;
+    font-size: large;
+    font-family:cursive;
+    border-radius: 20dvh;
+    width: 250px;
+}
+p{
+    
+}
